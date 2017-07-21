@@ -1,0 +1,301 @@
+%    DD-ERS.tex  (use only for JWST Director's Discretionary Early Release Science proposals)
+%
+%
+%
+%    JAMES WEBB SPACE TELESCOPE 
+%    OBSERVING PROPOSAL TEMPLATE 
+%    FOR CYCLE 1 DD-ERS (2017)
+%
+%    Version 1.0 May 2017.
+%
+%    Guidelines and assistance
+%    =========================
+%     Cycle 1 Announcement Web Page:
+%
+%         https://jwst-docs.stsci.edu/display/JSP/JWST+Cycle+1+Proposal+Opportunities
+%
+%    Please contact the JWST Help Desk if you need assistance with any
+%    aspect of your proposal:
+%    	    http://jwsthelp.stsci.edu
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The template begins here. Please do not modify the font size from 12 point.
+
+\documentclass[12pt]{article}
+\usepackage{jwstproposaltemplate}
+
+\begin{document}
+
+%   1. RATIONALE FOR DD ERS Program
+%       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+%
+\rationaletime          % Do not delete this command.
+% Enter your rationale for selection as a DD ERS program.
+
+% Explain how the proposal will support community preparations for Cycle 2 observations. Describe the anticipated interest in, and use of, the data and science-enabling products developed by the team. Describe how the proposal will serve as a pathfinder for science investigations. 
+
+% Outline
+%
+% I. Why do we need a nearby galaxies ERS program?
+%   - explain the variety of approaches to nearby galaxies
+%     science: mapping (statistical samples of regions/objects
+%     within galaxies) as well as detailed studies of 
+%     small scales
+%   - explain some of the challenges for nearby galaxies
+%     observations with JWST (large extended objects that
+%     fill the detectors and require "off" and leakcal obs
+%     needing to move the telescope a lot)
+%   
+% II. Prototyping nearby galaxy science on M51
+%   - why is M51 everyone's favorite nearby galaxy
+%   A. Key galaxy science goals that we can prototyope
+%   - compact ERS program that puts together a dataset that
+%     is useful for many different projects
+%
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   2. SCIENTIFIC JUSTIFICATION
+%       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Describe the scientific objectives supported by the proposed DD ERS observations and their overall importance to astronomy.  Describe the selected aspects of the science to be directly funded by the DD ERS program.  Discuss how the proposed observations support investigations beyond the immediate scientific objectives. 
+
+\justification          % Do not delete this command.
+% Enter your scientific justification here. 
+
+\noindent {\bf Star Formation and Feedback}
+
+\begin{itemize}
+   
+    \item{Improve diagnostics of SFR on small scales in galaxies - H recombination line stack (Halpha, Hbeta, Palpha, Pbeta, Bralpha) - study extinction correction from the Balmer decrement, learn about ionizing photon absorption in HII regions, test prescriptions for different IR bands instead of 24 micron, test broadband IR emission as a small scale SF tracer, figure out the cirrus correction by just physically separating SF regions from cirrus. Add diagnostic power to PAH features like 12 micron WISE.}
+    
+    \item{Constrain the life cycle of GMCs and star forming regions - compare SF rate maps (from H recombination lines and dust continuum) to molecular gas maps on cloud scales, study the GMC lifecycle in different environments of the galaxy - where is it set by spiral arm passage vs feedback. Time domain - statistics connection}
+    
+    \item{Understand the feedback process that constrains the life of GMCs - add shock and PDR diagnostics on top of the SFR-CO relationship}
+    
+    \item{Reveal the same sort of structures seen in the Milky Way in nearby galaxies, IRDCs, H2 emission features from outflows}
+    
+    \item{Star forming sequence along rings and arms, use gas, ionized regions, feedback s}
+n taruse   
+\end{itemize}
+
+
+Stars and star clusters form out of molecular clouds, with massive stars exerting strong feedback on their parent clouds. Despite numerous observations of the large scale relation between gas and star formation (see Kennicutt \& Evans 2012), many open questions remain regarding star formation in galaxies. JWST has the opportunity to make major contributions to many of these, including: what is the life-cycle of a molecular cloud? Do stars form evenly through the life of a cloud or does star formation “accelerate,” destroying the cloud in the process (Murray 2011, Lee et al. 2016)? How do the properties of a molecular cloud relate to its instantaneous star formation rate? Do these results agree with turbulent star formation theory (e.g., Padoan et al. 2011, 2012), which make clear predictions (e.g., Federrath \& Klessen 2012) but are so far only very weakly tested by observations (e.g., Leroy et al. submitted)? How do the properties of molecular clouds relate to the stellar clusters that they form? Is there a link between the molecular cloud mass function, which varies within and among galaxies (e.g., Rosolowsky 2005, Colombo et al. 2014, Hughes et al. 2013, xx), and the output cluster population? And how strong is the feedback exerted by young stellar populations on the surrounding gas at any instant? What is the dominant feedback mechanism at each stage of a cloud’s evolution (e.g., Lopez et al. 2011, 2014)? These questions get at the physics underlying the scaling relations studied by Spitzer and Herschel. Thanks to the resolution of JWST, these can at last be addressed cloud-by-cloud in other galaxies.
+
+To make progress on these topics requires 1) a well-characterized, well-resolved molecular cloud population, 2) a deep knowledge of environment in the galaxy, 3) cloud-by-cloud, extinction-robust measurements of the instantaneous star formation rate, 4) a well characterized cluster population, and 5) detailed diagnostics of the physical state of the gas. So far, this combination of data exists mainly in the Milky Way and a few Local Group galaxies, and as a result, studies of cloud-scale star formation and feedback have concentrated mainly on this limited set of environments (e.g., Lee et al. 2016, Fukui \& Kawamura 2010): i.e. with the exception of the Galactic Center itself these are regions that are dominated by the atomic gas phase and have low stellar surface densities compared to normal, massive star forming disks. Before JWST, the crucial IR-based diagnostics of star formation and feedback were limited by the coarse resolution of Spitzer and Herschel and so simply could not be obtained at “cloud scale” (10s of pc) resolution outside the Local Group.
+
+JWST will change this game completely. Its mid-IR continuum and IR recombination line imaging will provide extinction-robust star formation rate estimates at resolution <~ 1” ~ 40 pc at the distance of nearby massive star forming galaxies like M51. This will yield, for the first time, extinction-robust star formation rates for each individual molecular cloud (rather than a large area) across a galaxy like M51. The same recombination lines will yield precise age and extinction estimates for young stellar clusters. Narrow band imaging of iron lines can reveal recent SNe, while H2 line and PAH band ratios will diagnose the physical state of the gas and dust.
+
+By pairing these estimates of the local star formation rate and cluster population with observations of the molecular cloud population, we can make a statistical measurement of the cloud life cycle. In the Milky Way, such observations suggest that most star formation is associated with only a few dozen (out of hundreds) of clouds, suggesting an evolutionary sequence in which massive star formation “accelerates” across a cloud’s lifetime and reaches a peak as it tears the cloud apart (Lee et al. 2016, Murray 2011). Such a violent, out-of-equilibrium cloud life cycle is at odds with some current theories (e.g., Krumholz \& Tan 2007, Krumholz \& McKee 2005). This scenario is essentially untested outside the Milky Way, where the light-of-sight confusion makes the interpretation challenging and unreliable. Pairing JWST-based SFRs with M51’s unique, high quality molecular catalog and our clean external view of the galaxy will allow strong tests of this and other models for the molecular life cycle, including the cloud lifetime and the time for feedback to disperse the cloud. This is only possible with a high resolution SFR tracer robust to dust (i.e., Ha and similar optical lines will not work).
+
+
+
+\noindent {\bf Evolved Stars \& Stellar Populations}
+
+\begin{itemize}
+    \item{Measure the O/C ratio and dust production rate for AGB stars in high metallicity environment of M51 - use medium bands in NIRCAM and MIRI to diagnose dust minearology and production rate. Use this to understand metallicity dependence of O/C ratio within M51 (using its metallicity gradient).  Measure the current rate of dust input compared to the rates of dust destruction.}
+    \item{Calibrate variability period (from Conroy optical imaging) to dust production rate (from JWST MIRI and NIRCAM).}
+    \item{With parallel NIRISS/NIRCAM imaging, measure the tip of the red giant branch and other stellar population characteristics}
+    \item{Find massive YSOs in M51?}
+\end{itemize}
+
+JWST is basically a perfect telescope for studying evolved stars in nearby galaxies.  Synergy of narrow band imaging with AGB studies (AGB diagnostic bands are the same bands needed for narrowband continuum removal in NIRCAM).
+
+JWST's angular resolution, sensitivity, and wavelength coverage make it a fantastic observatory for extragalactic studies of cool evolved stars including intermediate-mass Asymptotic Giant Branch (AGB) stars and massive red supergiants (RSGs). Stellar evolution models of these phases remain highly uncertain due to complex mixing, dredge up, and mass loss processes. Their short lifetimes also make them rare, resulting in few statistically robust samples available for constraining the models, especially in the infrared where their spectral energy distributions peak.
+
+These stars are among the brightest objects in galaxies, contributing up to 70\% of the near-IR luminosity (Maraston et al. 2006; Melbourne et al. 2012), depending on the star formation history. Models have few empirical constraints on the stellar lifetimes, so the luminosity contributions are highly uncertain, leading to significant biases in the interpretation of galaxy spectra and affecting derived star-formation rates and stellar masses (Conroy et al. 2009; Girardi et al. 2013). Chemically, AGB stars are uniquely responsible for elements used to derive metal abundances of metal-poor stars and possible self-enrichment of multiple populations in globular clusters (Ventura et al. 2001; D'Antona et al. 2002), but the connection between initial stellar mass and chemical yields is not calibrated, especially at high metallicity (Karakas \& Lattanzio 2014). In addition, these stars (both AGB and RSG stars) are the only confirmed contributors to a galaxy's dust budget (alternatives being possible supernova dust or interstellar grain growth), and may in fact dominate the dust production (Matsuura et al. 2009; Boyer et al. 2012; Srinivasan et al. 2017).
+
+Metal-rich populations are particularly poorly constrained due to distance uncertainties in the Milky Way. Gaia may not improve the situation for AGB stars given the large angular size of ever-moving convective cells on the AGB surface, so extragalactic surveys are crucial for understanding the evolution of these stars in metal-rich environments. Since these stars are bright, they will be easily detected even in distant galaxies. Near-IR imaging and spectra will
+sample the SED peaks and key molecular features essential for estimating the stellar mass and the strength of mixing processes in the stellar atmosphere. Mid-IR imaging and spectra will sample their circumstellar dust environments, allowing an assessment of dust mineralogy
+and dust-production efficiency.
+
+\vspace{0.1in}
+
+\noindent {\bf ISM \& Dust Physics}
+
+\begin{itemize}
+    \item{Map the 3.3 micron PAH and see how it varies relative to other lines - physical conditions of PAHs}
+    \item{Measure the variation of the 3.3/3.4 micron PAH across the spiral arm.}
+    \item{Constrain the effect of the AGN on PAHs}
+    \item{Measure the abundance of C60 in another galaxy.}
+    \item{Band ratio variations across star forming regions - evidence for dust growth}
+    \item{Track the H2 emission surrounding molecular clouds as a probe of the CO-dark H2}
+    \item{Study the heat source of diffuse H2 emission - low level UV-heated PDRs or turbulent dissipation}
+    \item{Calibrated near-IR and mid-IR metallicity diagnostics with resolved HII region - uesful for regions where there is lots of dust extinction}
+    \item{H2 ortho-to-para ratio variations on small scales due to shock timescales}
+    \item{Structure of resolved HII region in near- and mid-IR emission lines - fine structure, ionization structure}
+\end{itemize}
+
+Resolved mid-infrared dust emission serves as a significant and mostly untapped tool for studying the evolution of galaxies. Of particular importance are PAH bands — skeletal vibrational emission features which arise from stochastically heated small aromatic grains at 3–17µm. Typically 10\% and up to 25\% of the bolometric infrared power in star forming galaxies is emitted in the PAH bands, dwarfing by a factor of 10-100x in luminosity any fine structure or recombination emission line a galaxy produces.  This fact alone makes PAH emission of significant potential diagnostic value.  The features are readily identifiable, and to first order follow a roughly uniform spectral template.  This has enabled PAH bands to be detected, with redshift sensitivity, in low-resolution spectra of galaxies up to z~4, and many plans are under development to extend this reach with blind redshift-sensitive PAH surveys to z=10 and beyond (SPICA, OST, etc.).   
+
+And yet, despite their ubiquity, surprisingly little is known about the PAH band carriers, with a variety of carbon-rich materials having been proposed since their discovery in the 1980’s.  In addition, we have only recently begun to explore how these small grains respond to changes in gas metal content, intensity and hardness of UV-optical starlight, the presence of AGN, the dominance of turbulent energy dissipation in shocks, etc.  And respond they do.  Local galaxy surveys with ISO and Spitzer have uncovered substantial variation in PAH band ratios, tied to the grain size distribution, ionization state, and relative abundance of these important grains.   Our goal is to develop these into full diagnostics of galaxy conditions.
+Small grains including PAHs regulate the flow of radiative energy through the ISM of galaxies through photoelectric heating.  This sets the temperature in neutral gas, impacting the process of star formation itself.  Yet the efficiency with which UV/Optical photons can be converted into thermal energy depends sensitively on the sizes and ionization states of PAH grains, information on which is currently limited due to the lack of coverage of PAH emission bands at the shortest wavelengths.
+
+PAH emission comprises $\sim$ 5\% of the entire, integrated gamma-ray to radio non-primordial radiative energy content of the Universe.  To realize the diagnostic potential of this energetically important emission, we need to resolve PAH emission in a wide variety of emitting environments in the local Universe.   Local galaxies present the ideal place to explore a diversity of environments — from intense PDRs to diffusely heated regions, to the inner 10s of pc in AGN centers; from super-solar metallicity to nearly pristine gas; from sites of ongoing star formation to regions dominated by the high intensity soft radiation fields of old stellar populations — it is through detailed, high resolution, high sensitivity, targeted narrow-band continuum coverage and full spectral maps in carefully selected regions spanning the fullest range of environment that we can begin to harness the true potential of this relatively untapped emission.
+
+\noindent A few specific applications:
+
+\noindent $\bullet$ The size distribution of small grains is a critical ingredient in basic physical processes including the heating efficiency of neutral gas, the total carbon budget in grains, and the details of grain (re-)growth in dense clouds of gas.  The 3.3 micron features are particularly important for understanding the sizes of the smallest grains, but have not been probed in nearby galaxies due to the 5.5µm lower cutoff of Spitzer/IRS.  How much of this could we do with NB imaging + Spitzer spectroscopy?
+
+\noindent $\bullet$ Ionization state: 17/3, or 11.3/3.3
+
+\noindent $\bullet$ Grain growth and destruction: direct tests inside and outside cold, dense clouds, HII regions, etc.  This is where the 5-10pc resolution comes into play.  Picking regions carefully is going to be entirely crucial.
+
+\noindent $\bullet$ Silicate absorption and emission, diagnostic of torus region in the Seyfert AGN nucleus (+ LINER in M51b if you choose to include it!).  Two classic weak AGN in one galaxy.
+
+\noindent $\bullet$ Aliphatic emission in the 3um band.  The variation of PAH to aliphatic 3.4µm emission has not been explored except on global scales in high luminosity systems, and the ratio of aromatic (3.29µm) to aliphatic (3.4µm) vibrational structure is highly diagnostic of the structural state of the smallest grains (Joblin, 1996).
+
+\noindent $\bullet$ Ice and aliphatic grain absorption in the 3µm band.  The impressive spatial resolution provided by NIRCAM/NIRSPEC will likely isolate regions with dust columns (AV>3) needed to appreciate 9.7µm and 18µm silicate absorption.  With matched 1–28µm IFU data at these small scales, we will have a much better ability to probe global crystalline fraction, and to couple with multiple dust column estimates to uncover relations between optical and MIR opacity.  Full-up Ice vs. silicates: ice growth, etc. 
+Carbon budget issues?  How much carbon can there be in PAHs?  UV opacity like 2175 + PAH bands + ERE + CO + CI
+
+\vspace{0.1in}
+
+\noindent {\bf Cluster Science}
+
+F187N/F405N - With the Pa-alpha filter combined with Legus Hα and/or Brα we can derive accurate dust extinctions for all star cluster identified by legus in optical HST imaging. In turn this would provide more accurate cluster ages and masses. The existence of the existing Paα/Ηα + Paα/Brα would provide an empirical check on the new dust extinctions. These new Paα data would extend to encompass the entire galaxy; not just the central region as in the past observations with NICMOS.
+Q from SG: can we quantify the improvement in the age & mass determinations? What science does this enable that can’t be done using the current determinations?
+
+F335M/F770W/F1130W - We can use this filter to identify clumps of PAHs and derive their spatial relationship to clusters. With these correlations we should be able to connect the cluster environment to the survivability of PAH molecules. Open question: how can we use narrow/medium-band imaging to derive radiation field intensity?
+cluster identification - Clusters will be identified via semi-automated methods used by the LEGUS team in various JWST bands. Co-I Cook helped develop the LEGUS software tools and will adapt them for use on JWST NIR-IR images. A comparison between JWST and HST-LEGUS clusters will be interesting to see if there are more clusters identified at redder wavelengths, especially in filters redder than NIR filters (λ > 2μm). Open question: how many embedded clusters do we expect to find? Previous HST cluster studies of the Antennae galaxies with HST-NIR filters showed that the majority of clusters (including partially-embedded) were still found in the F814W images.
+Spectroscopic case that compliments feedback - The presence  CIV,  HeI,  HeII,  and  Brγ that are seen shortward of 2μm indicate the presence of Wolf Rayet stars (3<age<5 Myr; M>25 Msun). Any spectroscopic measurements of young massive star clusters would allow us to independently determine the age of the cluster via the these lines. In addition, WR stars are thought to play a role in the removal of the cluster's natal gas cloud. Thus correlating the dust properties (Av) for each cluster and their WR features would help constrain the role of WR stars on feedback and the age at which gas is expelled from a star cluster. There is a sample of 7 young massive star clusters in M51 where WR signatures were found in the optical (HeI 4686 A; Sokal+2016); these would be ripe targets. 
+
+\vspace{0.1in}
+
+\noindent {\bf AGN Diagnostics}
+
+JWST Prototype Science
+\begin{itemize}
+    \item{Test AGN unification theory via measuring nuclear silicate emission}
+    \item{Constrain relative orientation of the central jet and accretion disk}
+    \item{Characterize processing of PAHs by the M51 Seyfert nucleus}
+    \item{Measure the AGN (Mechanical & Radiative) Zone of Influence}
+\end{itemize}
+
+The hard radiation field emitted by an AGN can severely impact the nuclear regions of galaxies, ionizing and heating the surrounding ISM and disrupting the star formation process. Similarly, the jet and winds associated with the AGN affect their surroundings, shocking and blowing away the gas at the centers of galaxies.
+
+JWST can determine the presence and impact of the M51 AGN through several ways. First, the AGN can heat the surrounding dust to sublimation temperatures. This dust will emit strongly at both near- and mid-IR wavelengths, peaking at ~3µm and should be visible in the NIRCAM and MIRI photometry.  Second, the hard radiation field of AGN have been observed to destroy polycyclic aromatic hydrocarbons (PAHs). These large molecules have emission features that dominate the MIR photometry and their presence (or lack of) will be visible, especially in the MIRI 11.3um narrow band.  Finally, the hard radiation field of the AGN and the shocks created by the wind and jets are able to ionize and excite the ISM to levels far above that possible in HII regions. Such ISM emits strongly in highly ionized species and temperature sensitive emission lines. These conditions allow for emission line diagnostics that can clearly indicate the presence of the AGN (e.g., [Si~VII]2.48µm) or diagnostics for separating the shocked and AGN-affected ISM from that affected by young stars (such as the [FeII], H2, Brackett-γ line diagnostic diagram shown below) that can be measured using nuclear pointings of the NIRspec IFU. Similar MIR diagnostics (such as based on the [NeV]/[NeII] ratio and PAH equivalent widths can be observed using MIRI spectroscopy in IFU mode (covering ~same region as NIRSpec). These diagnostics enable the subtraction of the AGN emission from the gas, and therefore allow for the HII region, and therefore local star-formation rate, to be determined.
+
+In M51, observations from the JVLA (synchrotron), PdBI (CO gas; sub-mm continuum), and HST (Hα and [OIII]5007) preliminarily suggest the direction of the AGN's jet for purposes of orienting our spectral ``strip'' observations.  We will use NIRCam and MIRI imaging to further constrain its morphology and Zone of Influence through its impact on the surrounding ISM. 
+
+\vspace{0.1in}
+
+\noindent {\bf Spiral Structure}
+
+\begin{itemize}
+    \item{}
+\end{itemize}
+
+
+M51 contains a strong two-arm spiral with dark dust lanes along the arms and dust feathers extending into the interarm regions (La Vigne et al. 2006). It is one of the best-studied galaxies, with detailed observations including HST WFPC2 and NICMOS (Scoville et al. 2001, Calzetti et al. 2005), GALEX (Martin et al. 2005), Spitzer (Kennicutt et al. 2003), IRAM (Schuster et al. 2007; Chen et al. 2015), CARMA (Koda et al. 2009), VLA (Walter et al. 2008), PdBI (Schinnerer et al. 2013), and NOEMA (Chen et al. 2017) (it is too far north for ALMA). These observations have led to a large number of recent studies related to spiral structure and star formation, including an examination of pattern speeds (Meidt et al. 2008), streaming motions compared with GMC star formation (Meidt et al. 2015), cluster ages and offsets from arms (Schinnerer et al. 2017), and gas and arm offsets (Egusa et al. 2017). There have been many recent analytic (e.g., Meidt et al. 2008) and numerical simulations (e.g., Dobbs et al. 2010), including a high resolution one of a galaxy like M51 (Dobbs et al. 2017).  
+ 
+A key question that JWST can address concerns the link between spiral arms and star formation.  JWST will be able to observe for the first time the young massive stars and young star clusters that are still highly obscured by their natal clouds. Only the brightest of these sources have been found so far using Spitzer 3.6 mum images (0.75” pixels; Elmegreen et al. 2014). With much deeper IR observations at higher resolution, we will determine the environments of a large number of star-forming clouds. We will see if these clouds are still filaments aligned with the arms in the case of spiral arm shocks, or spurs, feathers, and shells downstream from the arms and therefore secondary, or clumps that condensed by gravitational instabilities or agglomerated in the shocks. We will also be able to see star formation in the interarm molecular clouds discovered by Koda et al. (2009).  These observations will allow the first direct determination of the star formation efficiencies in the arms and interarms to compare with models of spiral arm triggering and secondary processes.
+ 
+JWST imaging with NIRCAM using the F360M filter (0.065” pixels) will show the embedded sources we wish to study. NIRCam imaging with the F187N filter will discern between massive stars and compact low-mass clusters by showing the obscured ionized gas at comparable resolution (0.032” pixels) through Pa a 1.87mm emission.
+ 
+Note: at the February telecom, others mentioned the following and can add more here on SF and feedback related to spiral arm passage:
+        - tracers of turbulent dissipation from narrow band line ratios or spectroscopy
+        - shocks in various context - SNe, spiral arms, feedback in SF regions, UV vs shock heating
+        - possibilities for using H2 emission with CO/[CII] to study CO-dark H2
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3a. DESCRIPTION OF THE OBSERVATIONS
+%       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Describe the targets and observational modes to be used. Quantitative estimates must be provided of the accuracy required to achieve key science goals. Proposers must demonstrate that all observations can execute in the first 5 months of Cycle 1 (planned to be from April to August 2019), and that a substantive subset of the observations are accessible in the first 3 months. This description should also include the following,
+
+\describeobservations   % Do not delete this command.
+% Enter your description of the observations.
+
+% I. Why are we targeting M51?
+%   a. Nuclear target
+%   b. Arm target
+% II. Observing Modes
+%   a. NIRCAM imaging
+%       - narrow bands
+%       - medium bands
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3b. PLAN FOR ALTERNATIVE TARGETS
+%       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Plan for Alternative Targets:  As described in JWST DD ERS Special Observational Policies, proposers should qualitatively describe the availability of alternate targets and the process used to identify those targets should the start of science observations be delayed.  Robust ERS programs involve science investigations that can be performed with a variety of different targets and observations. 
+
+\alttargets   % Do not delete this command.
+% Enter your plan for for alternative targets here.
+M83 will serve as our alternative target to M51.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3c. SPECIAL REQUIREMENTS
+%        (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Special Observational Requirements (if any): Justify any special scheduling requirements, e.g., time-critical observations.
+
+\specialreq             % Do not delete this command.
+% Justify your special requirements here, if any.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3d. COORDINATED PARALLEL OBSERVATIONS
+%        (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Justification of Coordinated Parallels (if any): Proposals that include coordinated parallel observations should provide a scientific justification for and description of the parallel observations. It should be clearly indicated whether the parallel observations are essential to the interpretation of the primary observations or the science program as a whole, or whether they address partly or completely unrelated issues. The parallel observations are subject to scientific review, and can be rejected even if the primary observations are approved. 
+
+\coordinatedobs % Do not delete this command.
+% Enter your coordinated parallel observing plans here, if any.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   3e. JUSTIFY DUPLICATIONS
+%        (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Justification of Duplications (if any): as detailed in the JWST DD ERS Proposal Policies and the JWST Duplicate Observations Policy, observations taken as part of the DD ERS program cannot duplicate those specified for the GTO Cycle 1 Reserved Observation Catalog (planned for release on June 15, 2017). Any duplicate observations must be explicitly justified.
+
+\duplications           % Do not delete this command.
+% Enter your duplication justifications here, if any.
+There are no duplicate observations proposed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   4. DATA PROCESSING AND ANALYSIS PLAN
+%       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
+%
+% Describe the data processing plan and identify science-enabling products that will be developed, including specifically those that will be made available by the release of the Cycle 2 Call for Proposals (September 2019). Describe the analysis required to pursue science investigations undertaken as an integral part of the DD ERS program, and include effort required to support DD ERS community briefings. Proposers should assume an October 2018 start for the plan.
+
+% Proposers may consider multiple deliveries, with more advanced products provided over longer timescales. Proposals may include the collection, processing and analysis of ancillary data as part of an integrated DD ERS proposal.
+
+\analysisplan % Do not delete this command.
+%Describe the data processing and analysis plan and identify science-enabling products that will be developed, including specifically those that will be made available by the release of the Cycle 2 Call for Proposals (September 2019). Describe the analysis required to pursue science investigations undertaken as an integral part of the DD ERS program, and include effort required to support DD ERS community briefings. Proposers should assume an October 2018 start for the plan.
+% We would observe M51 in April, May, June 2019.  Deliverables due Sept.
+
+Science-Enabling Products:
+
+PAHFIT update: PAHFIT is a popular tool for decomposing mid-infrared spectra of galaxies--PAHFIT is used to identify and characterize the various spectral components contained in an infrared spectrum (atomic and molecular lines, warm dust, PAHs, stellar, etc.).   Co-I Smith and student will update this software by first converting it to the Python programming language and then by adapting it to the characteristics of JWST spectra (e.g., ices, new lines and dust features, extended wavelength coverage, various spectral resolutions).  In addition to tuning the new version of PAHFIT by incorporating example JWST spectra from M51, there will also be pre-launch efforts facilitated by Akari cross-archival training to extend the wavelength coverage down to 2µm. 
+
+Spectral templates: Co-PI Dale will lead the effort to develop representative 2-28um spectra based on NIRSpec and MIRI IFU data.  Regions of focus will include an HII region, nuclear and near-nuclear regions, and arm and inter-arm areas.  The data from the two instruments and their multiple spectral components will be self-consistently normalized and stitched together, with all wavelength gaps bridged, to provide wavelength-complete spectra from 2 to 28um.  
+
+Line maps and narrow band continuum removal recipes: Co-I Bolatto and student will provide line maps and the effectiveness of empirically-derived recipes for producing them.  For example, we will leverage the ``truth'' derived from NIRSpec IFU spectra to quantify the effectiveness of producing line maps using our proposed narrow band imaging in combination with our proposed medium band imaging.  
+
+Point source catalogs: Co-I Boyer will produce a catalog of the point sources detected in each of the narrow band and medium band imaging mosaics.  Right Ascension, Declination, and a preliminary flux and uncertainty will be provided for each object. We will also provide artificial star tests to characterize the photometric completeness. 
+
+The utility of LeakCals and spectral ``offs'': Co-I Gordon will quantify the necessity for taking ``off'' spectra.  He will measure the difference in key spectral map features processed with and without the off spectra, and assess if these differences are significant by comparing to the estimated uncertainties. Likewise, we will measure the importance of taking LeakCal data, including the necessity of taking them for every pointing and whether dithering LeakCal observations improve the final data product.
+
+Convolution kernels: PI Sandstrom will construct a comprehensive set of smoothing kernels that will enable fair comparisons of JWST data taken at a variety of angular resolutions.  These convolution kernels will be developed for both imaging and spectral data.
+
+The majority of these science-enabling products will be developed immediately after the data have been taken, nominally during the summer of 2019.  Pre-launch work on PAHFIT and the spectral templates will also be carried out during Summer 2018.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}          % End of proposal. Do not delete this line.
+                        % Everything after this command is ignored.
+
